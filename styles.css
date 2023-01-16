@@ -1,0 +1,81 @@
+:root {
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.over {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sky {
+    background-image: url('./images/green.avif');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fafafa;
+    width: 65vw;
+}
+
+.peak {
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    align-items: flex-end;
+    margin-bottom: 3%;
+}
+
+.mid {
+    height: 33vh;
+    background-color: white;
+}
+
+.mid-ahh-form {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.mid-forms {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    
+}
+
+.trash {
+    height: 33vh;
+}
