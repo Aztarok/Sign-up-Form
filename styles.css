@@ -31,7 +31,8 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     color: white;
-    font-family: Norse-Bold, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .form {
@@ -54,6 +55,8 @@ body {
 .mid {
     height: 33vh;
     background-color: white;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
 .mid-ahh-form {
@@ -73,9 +76,88 @@ body {
 input {
     width: 200px;
     border: 1px solid #E5E7EB;
-    
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 10px;
+    color: #54545e;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.greeny {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
 .trash {
-    height: 33vh;
+
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.login {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.loginBtn {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skyFall {
+    color: white;
+}
+
+.overall {
+    height: 39vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom {
+    height: 60vh;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.odinText {
+    font-size: 50px;
+    font-family: Norse-Bold;
+}
+
+.odin-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }

@@ -11,6 +11,15 @@
 <body>
     <div class="over">
         <div class="sky">
+            <div class="overall">
+                <div class="odin-logo">
+                    <img src="./images/odin.png" alt="Odin Logo" height="150px">
+                    <h1 class="odinText">ODIN</h1>
+                </div>
+            </div>
+            <div class="bottom">
+                Photo by <a class="skyFall" href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a class="skyFall" href="unsplash.com"> Unsplash</a>
+            </div>
         </div>
         <div class="form">
             <div class="peak">
@@ -21,41 +30,47 @@
                     You <em>know</em> you want to.
                 </h2>
             </div>
-            <div class="mid">
-                <h3 style="margin-left: 50px;">Let's do this!</h3>
-                <form action="" method="get" class="mid-ahh-form">
-                    <div class="mid-ahh-forms">
-                        <div class="mid-forms">
-                            <label for="firstName"> First Name</label>
-                            <input type="text" id="firstName" name="firstName">
+            <form action="" method="get">
+                <div class="mid">
+                    <h3 style="margin-left: 50px;">Let's do this!</h3>
+                    <div class="mid-ahh-form">
+                        <div class="mid-ahh-forms">
+                            <div class="mid-forms">
+                                <label for="firstName"> FIRST NAME</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div class="mid-forms">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="mid-forms">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" required>
+                                <p id="error">*Passwords do not match</p>
+                            </div>
                         </div>
-                        <div class="mid-forms">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div class="mid-forms">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
+                        <div class="mid-ahh-forms">
+                            <div class="mid-forms">
+                                <label for="lastName"> LAST NAME</label>
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                            <div class="mid-forms">
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber">
+                            </div>
+                            <div class="mid-forms">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                            </div>
                         </div>
                     </div>
-                    <div class="mid-ahh-forms">
-                        <div class="mid-forms">
-                            <label for="lastName"> Last Name</label>
-                            <input type="text" id="lastName" name="lastName">
-                        </div>
-                        <div class="mid-forms">
-                            <label for="phoneNumber">Phone Number</label>
-                            <input type="number" id="phoneNumber" name="phoneNumber">
-                        </div>
-                        <div class="mid-forms">
-                            <label for="password">Confirm Password</label>
-                            <input type="password" id="password" name="password">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="trash">
-
+                </div>
+                <div class="trash">
+                    <button type="submit" class="greeny">Create Account</button>
+                </div>
+            </form>
+            <div class="login">
+                <p>Already have an account? <a class="loginBtn" href="">Log in</a></p>
             </div>
         </div>
     </div>
